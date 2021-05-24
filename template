@@ -67,7 +67,6 @@ commands:
             else
               echo "export JEKYLL_BASENAME=${CIRCLE_BRANCH}" >> $BASH_ENV;
             fi
-
 # Workflows orchestrate a set of jobs to be run;
 # the jobs for this pipeline are # configured below
 workflows:
